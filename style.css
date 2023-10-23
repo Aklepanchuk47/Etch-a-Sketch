@@ -1,0 +1,135 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vh; 
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+    min-height: 300px;
+    width: 60vh;
+    height: 60vh; 
+    max-width: 600px;
+    max-height: 600px;
+}
+
+.titleTarget1 {
+    font-weight: 100;
+    color: yellow;  
+    background: linear-gradient(0.25turn, #120397, #401ecc, #5338f0);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    padding-left: 20px; 
+    padding-top: 10px; 
+    padding-right: 10px; 
+    padding-bottom: 10px; 
+}
+
+.titleTarget2 {
+    font-weight: 900;
+    color: blue; 
+    background: linear-gradient(0.25turn, #5338f0, #cfc249, #e4ef06);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    padding-left: 10px; 
+    padding-top: 10px; 
+    padding-right: 20px; 
+    padding-bottom: 10px; 
+}
+
+.title {
+    display: flex; 
+    justify-content: center; 
+}
+
+.mode {
+    display: flex; 
+    justify-content: center; 
+}
+
+.board {
+    display: grid;
+    width: 80%;
+    height: 80%;
+    border: 4px solid #120397;
+    outline: 4px solid #e4ef06; 
+    border-radius: 5px; 
+    margin: 20px; 
+}
+
+.blackButton {
+    font-size: 20px;
+    background-color: rgba(10, 10, 10, 0.6); 
+    border-radius: 10px; 
+    margin-right: 10px; 
+}
+
+.whiteButton {
+    font-size: 20px;
+    border: dotted; 
+    border-radius: 10px; 
+    margin-right: 10px; 
+}
+
+.grayButton {
+    font-size: 20px;
+    background-color: rgba(128, 128, 128, 0.3);
+    border-radius: 10px; 
+}
+
+.randomButton {
+    font-size: 20px;
+    background: linear-gradient(0.25turn, #f65cfc, #ebf8e1, #583cf6);
+    border-radius: 10px; 
+    margin-left: 10px; 
+}
+
+.resetButton {
+    font-size: 20px;
+    color: white; 
+    background: repeating-linear-gradient(to right, white 0px, black 2px);
+    border-radius: 10px; 
+    margin-left: 10px; 
+}
+
+.boardSize {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+.input {
+    font-size: 15px;
+    text-align: center;
+    max-width: 50px; 
+    border-radius: 10px;
+    margin-right: 10px; 
+}
+
+.setSize {
+    font-size: 15px; 
+    max-width: 80px;
+    border-radius: 10px;
+}
+
+.input-message {
+    font-weight: bold; 
+    text-align: center; 
+    margin-top: 20px; 
+}
